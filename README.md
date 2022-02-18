@@ -5,3 +5,4 @@
 [![Node CI](https://github.com/n1k1t1nat/frontend-project-lvl2/actions/workflows/node.js.yml/badge.svg)](https://github.com/n1k1t1nat/frontend-project-lvl2/actions/workflows/node.js.yml)
 [![asciicast](https://asciinema.org/a/PkoOKkVbkSSZBKotLEWGNy7cs.svg)](https://asciinema.org/a/PkoOKkVbkSSZBKotLEWGNy7cs)
 [![asciicast](https://asciinema.org/a/bKT5y6suXPiwxej7TB84f9Xrh.svg)](https://asciinema.org/a/bKT5y6suXPiwxej7TB84f9Xrh)
+[![asciicast](https://asciinema.org/a/jM5vlgf0NYp8Hn7vT6IfG2oSd.svg)](https://asciinema.org/a/jM5vlgf0NYp8Hn7vT6IfG2oSd)
