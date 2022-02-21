@@ -16,9 +16,9 @@ const tests = [
 ];
 
 describe('Gendiff test', () => {
-  test.each(tests)('Compare files', (fileBefore, fileAfter, expectedResult, format) => {
-    const fileBefore = getFixturePath(fileBefore);
-    const fileAfter = getFixturePath(fileAfter);
+  test.each(tests)('Compare files', (firstFile, secondFile, expectedResult, format) => {
+    const fileBefore = getFixturePath(firstFile);
+    const fileAfter = getFixturePath(secondFile);
     const getResult = readFile(expectedResult);
     const result = genDiff(fileBefore, fileAfter, format);
     expect(result).toEqual(getResult);
