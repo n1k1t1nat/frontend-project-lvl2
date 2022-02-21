@@ -8,5 +8,7 @@ export default (format, data) => {
       return yaml.load(data);
     case 'yaml':
       return yaml.load(data);
+    default:
+      throw new Error(`Format not provided: ${format}`);
   }
 };

@@ -1,15 +1,13 @@
-import getStylish from './formatters/stylish.js';
+import stylish from './stylish.js';
+import plain from './plain.js';
 
 export default (ast, format) => {
     switch (format) {
       case 'stylish':
-        return getStylish(ast);
+        return stylish(ast);
   
       case 'plain':
-        return getPlain(ast);
-  
-      case 'json':
-        return getJSON(ast);
+        return plain(ast);
   
       default:
         throw new Error(`Unknown format: '${format}'!`);
