@@ -3,7 +3,7 @@ const stringify = (data, treeDepth) => {
   if (typeof data !== 'object') {
     return `${data}`;
   }
-  if (data === null) { 
+  if (data === null) {
     return null;
   }
   const lines = Object
@@ -24,7 +24,6 @@ const stylish = (diffTree) => {
       case 'changed':
         return `${getValue(node.valueBefore, '-')}${getValue(node.valueAfter, '+')}`;
       case 'nested':
-        // eslint-disable-next-line max-len
         return `${indent(depth)}  ${node.key}: {\n${buildString(node.children, depth + 1).join('')}${indent(depth)}  }\n`;
       default:
         throw new Error(`This type does not exist: ${node.type}`);

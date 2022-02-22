@@ -13,6 +13,7 @@ const tests = [
   ['file1.json', 'file2.json', 'expected_stylish.txt', 'stylish'],
   ['file1.yml', 'file2.yml', 'expected_stylish.txt', 'stylish'],
   ['file1.json', 'file2.json', 'expected_plain.txt', 'plain'],
+  ['file1.json', 'file2.json', 'expected_json.txt', 'json'],
 ];
 
 describe('Gendiff test', () => {

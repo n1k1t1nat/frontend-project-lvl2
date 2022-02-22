@@ -6,7 +6,7 @@ publish:
 	npm link
 
 lint:
-	npx eslint
+	npx eslint .
 
 gendiff:
 	node bin/gendiff.js
