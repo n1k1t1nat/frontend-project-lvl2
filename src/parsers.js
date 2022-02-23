@@ -9,6 +9,6 @@ export default (format, data) => {
     case 'yaml':
       return yaml.load(data);
     default:
-      null;
+      return null;
   }
 };
