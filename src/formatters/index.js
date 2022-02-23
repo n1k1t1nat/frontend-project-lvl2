@@ -11,6 +11,6 @@ export default (diffTree, format) => {
     case 'json':
       return json(diffTree);
     default:
-      throw new Error(`Unknown format: '${format}'!`);
+      return null;
   }
 };
